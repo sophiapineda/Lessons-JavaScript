@@ -53,3 +53,24 @@ JavaScript - Adds behavior and interactivity
 JavaScript is a Client Side Language - runs in the browser
 
 The official name for JavaScript is ECMAScript. It's also called ES6 
+
+#### video 3
+
+This video was my first JavaScript Program 
+
+```html
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Hello, World!</title>
+    </head>
+    <body>
+    
+        <script>
+            alert("Hello, World");
+        </script>
+    </body>
+</html>
+```
