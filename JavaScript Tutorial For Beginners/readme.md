@@ -43,3 +43,7 @@ This Video is the introduction to the course
 I'm using Brackets ide and chrome browser
 
 https://brackets.io
+
+#### video 2
+
+
