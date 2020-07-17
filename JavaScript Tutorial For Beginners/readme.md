@@ -46,4 +46,10 @@ https://brackets.io
 
 #### video 2
 
+HTML - Controls the structure of your web page 
+CSS - Controls the presentation/design
+JavaScript - Adds behavior and interactivity
 
+JavaScript is a Client Side Language - runs in the browser
+
+The official name for JavaScript is ECMAScript. It's also called ES6 
