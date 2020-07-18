@@ -74,3 +74,13 @@ This video was my first JavaScript Program
     </body>
 </html>
 ```
+
+#### video 4
+
+Paste **small** scripts at the bottom of your content just before the closing body tag
+
+If you had a larger script then put it in an external file
+
+```html
+<script> src="test.js"></script>
+```
