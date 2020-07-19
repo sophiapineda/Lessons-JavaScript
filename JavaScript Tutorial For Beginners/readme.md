@@ -79,8 +79,16 @@ This video was my first JavaScript Program
 
 Paste **small** scripts at the bottom of your content just before the closing body tag
 
-If you had a larger script then put it in an external file
+If you had a **larger** script then put it in an external file
 
 ```html
 <script> src="test.js"></script>
 ```
+
+#### video 5
+
+Google Developer Tools - right click -> inspect
+
+**Elements** shows the HTML on the page
+
+When you use alerts you must pass a String
