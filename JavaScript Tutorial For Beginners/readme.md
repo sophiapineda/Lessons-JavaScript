@@ -141,3 +141,115 @@ document.write(variable name) will write the variable to the document
 console.log(variable name) logs variable to console 
 
 good way to test variables or code that you want to output to the console
+
+#### video 11
+
+use booleans to check conditions of certain scenarios 
+
+assignment operator: =
+if you want to check validity: == 
+
+7 == 5 
+false 
+
+7 == 7 
+true 
+
+Boolean keyword: Boolean(7>5) --> true 
+Boolean(0) and (-0) is only false number 
+Boolean("hello") --> true because the String contains something 
+
+#### video 12
+
+use keyword **if**
+
+``` 
+if (myNum == 10){
+    
+    document.write("myNum is greater than 10");
+    
+} else{
+    
+    document.write("myNum is not equal to 10");
+    
+}
+```
+
+#### video 13
+
+can check multiple different conditions by using else if
+
+```
+var myAge = 29;
+
+if(myAge > 30){
+    
+    document.write("you are over 30");
+} else if(myAge > 20){
+    
+    document.write("you are over 20!");   
+} else if(myAge > 10){
+    
+    document.write("you are over 10!");
+} else{
+    
+    document.write("you are not over 10!");
+}
+
+```
+
+#### video 14
+
+comparison operators
+
+greater: > 
+less: < 
+greater than or equal to: >=
+less than or equal to: <=
+compare two numbers: == 
+
+```
+x = "5"
+x == 5 
+    true because == is only checking the value
+```
+use the === to check for value in regards to type 
+
+x === 5: false 
+x === "5": true
+
+negation operator: !=
+x!== will check for value and type again 
+
+#### video 15
+
+logical operators 
+
+&&: and (both have to be true)
+||: or (only one has to be true)
+
+```
+var myAge = 25; 
+
+if(myAge < 18 || myAge > 30 || myAge === 25){
+    
+    document.write("You aint coming!");
+}else {
+ document.write("You can come, you cool dude");   
+}
+
+will return You aint coming!
+```
+
+#### video 16
+
+while loop: another control flow system 
+
+while(condition is true){
+      execute this code
+ }
+ 
+#### video 17
+
+
+    
