@@ -496,6 +496,7 @@ Second Step: call the method
 JavaScript Events 
 
 onmouseover - recognizes when you hover your mouse over 
+
 onclick - recognizes when clicked 
 
 #### video 40 
@@ -518,3 +519,81 @@ button.onclick = function(){
     
 }
 ```
+
+#### video 41
+
+Window Onload events 
+
+We use it to make sure we don't fire any javascript until the window has fully loaded 
+
+#### video 42
+
+JavaScript Timers 
+
+Example: every three seconds or so I want to fire a function which will change this image
+
+setTimeout(showMessage, 3000); - fire function(1st parameter) after (2nd parameter) milliseconds 
+
+setInterval() - repeatdely calling in a function 
+
+clearInterval() - clears interval so it stops cycling through
+
+#### video 43
+
+Forms in JavaScript 
+
+document.forms.(nameofform) --> store it in a variable to access it later 
+
+#### video 44 
+
+Form Validation 
+
+```
+var myForm = document.forms.myForm; //stores the form in this variable 
+var message = document.getElementById("message");
+
+myForm.onsubmit = function(){
+    
+    if(myForm.name.value == ""){
+        message.innterHTML = "please enter a name";
+        return false;
+    }
+    else{
+        
+        message.innerHTML = "";
+        return true;
+    }
+}
+```
+
+#### video 45
+
+JavaScript Libraries 
+
+-Generel Purpose 
+-Animation 
+-Form enhancement 
+-Video 
+-Many more...
+
+jQuery 
+    - var myPara2 = $("#content p:last-child") 
+        - this wil grab elements much better than document.getElementById("").getElementsByTagName("")[]
+        
+#### video 46
+
+What next?? 
+
+JavaScript Libraries 
+- jQuery 
+- MooTools 
+- Modernizr 
+
+Ajax and Json 
+- Ajax is essentially a part of JavaScript 
+- Allows JavaScript to communicate with the server without having to leave the webpage 
+- Great example is when you zoom in on Google Maps 
+- JSON is just a way of organizing data and works well with AJAX 
+
+
+
