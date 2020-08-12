@@ -24,6 +24,15 @@ Prerequisties
     - JavaScript 'this' keyword, filter, map and reduce 
     - ES6 - let & const, arrow functions, template literals, default parameters, object literals, spread operators and destructuring assignment
 
+#### video 2 
+
+In this video, we installed our first react app
+
+```bash
+npx create-react-app hello-world
+cd ./hello-world
+npm start
+```
 
 
 
