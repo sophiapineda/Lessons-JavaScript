@@ -37,4 +37,41 @@ npm start
 
 Went through the purposes of all the files 
 
+#### video 4
 
+Components - a piece of the app
+
+Component in Code 
+    - usually placed in a JavaScript file
+
+Component Types:
+    - Stateless Functional Component
+        - JavaScript Functions
+    - Stateful Class Component
+        - Class extending Component Class
+        - Render method returning HTML
+
+Summary:
+Components describe a part of the UI
+They are re-usable and can be nested inside other components 
+Two types: functional and class
+
+#### video 5
+
+Functional Components
+Are JavaScript Functions that accepts an input of properties and returns HTML that determines the UI
+
+I wrote my first functional component 
+
+```JavaScript
+import React from 'react'
+
+// function Greet(){
+//     return<h1>Hello Sophia</h1>
+// }
+
+const Greet = () => <h1>Hello Sophia</h1>
+
+
+export default Greet
+```
