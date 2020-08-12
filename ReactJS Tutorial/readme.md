@@ -33,6 +33,8 @@ npx create-react-app hello-world
 cd ./hello-world
 npm start
 ```
+#### video 3
 
+Went through the purposes of all the files 
 
 
