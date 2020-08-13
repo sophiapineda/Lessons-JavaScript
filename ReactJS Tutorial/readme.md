@@ -118,3 +118,36 @@ What ever we've learne dso far in this series still holds good!
 
 Component types - Functional components and Class components 
 
+#### video 8
+
+JSX (JavaScriptXML): Extension to the JavaScript language syntax 
+Write XML - like code for elements and components.
+JSX tags have a tag name, attributes, and children. 
+JSX is not a necessity to write React apps 
+Makes your react code simpler and elegant 
+Ultimately transpiles to pure JavaScript which is understood by the browsers
+
+```JavaScript
+import React from 'react'
+
+const Hello = () => {
+//    return (
+//        <div> className = 'dummyClass'>
+//            <h1>Hello Sophia</h1>
+//       </div>
+//    )
+    return React.createElement(
+        'div',
+         {id: Hello, className: 'dummyClass'}, 
+         React.createElement('h1', null, 'Hello Sophia')
+         )
+}
+
+export default Hello 
+```
+
+JSX differences 
+
+Class being replaced by className 
+for beig replaced by htmlFor 
+camelCase property naming convention
