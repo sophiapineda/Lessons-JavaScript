@@ -108,3 +108,13 @@ Complex UI logic
 Provide lifecycle hooks 
 Stateful/smart/container 
 
+#### video 7
+
+Hooks Update - hooks are a new feature proposal that lets you use state and other React features without writing a class
+
+No breaking changes. Will not break any code in your application 
+Completely opt-in and 100% backwards-compatible.
+What ever we've learne dso far in this series still holds good!
+
+Component types - Functional components and Class components 
+
