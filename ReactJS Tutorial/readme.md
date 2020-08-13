@@ -75,3 +75,36 @@ const Greet = () => <h1>Hello Sophia</h1>
 
 export default Greet
 ```
+
+#### video 6
+
+Class Components - ES6 Class 
+
+Can recieve props as input and return HTML
+```JavaScript 
+import React, { Component } from 'react'
+
+class Welcome extends Component{
+    render(){
+
+        return <h1>Class Component</h1>
+    }
+}
+
+export default Welcome
+```
+
+Functional vs Class components 
+
+Functional: Simple Functions, use as much as possible 
+First advantage: absence of 'this' keyword
+Solution without using state 
+Mainly responsible for the UI
+
+Class
+More feature rich 
+Can maintain their own private data - state 
+Complex UI logic 
+Provide lifecycle hooks 
+Stateful/smart/container 
+
