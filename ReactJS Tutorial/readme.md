@@ -151,3 +151,7 @@ JSX differences
 Class being replaced by className 
 for beig replaced by htmlFor 
 camelCase property naming convention
+
+#### video 9
+
+Props - an object that contains an attribute and their values which have been passed from the parent component 

@@ -2,13 +2,13 @@ import React from 'react'
 
 const Hello = () => {
 //    return (
-//        <div>
+//        <div> className = 'dummyClass'>
 //            <h1>Hello Sophia</h1>
 //       </div>
 //    )
     return React.createElement(
         'div',
-         {id: Hello, class: 'dummyClass'}, 
+         {id: Hello, className: 'dummyClass'}, 
          React.createElement('h1', null, 'Hello Sophia')
          )
 }
